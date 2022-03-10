@@ -103,6 +103,16 @@ p {
     opacity: initial;
 }
 
+#c-name {
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Cherry Swash',cursive;
+    font-size: 20px;
+    margin: 0;
+    opacity: initial;
+}
+
 
 span {
     color: #2BD6B4;

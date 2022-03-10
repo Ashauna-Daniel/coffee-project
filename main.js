@@ -2,7 +2,7 @@
 
 function renderCoffee(coffee) {
     let html = '<div class="coffee col-6">';
-    html += '<div class="justify-content-center align-items-center">' + '<p>' + coffee.name + '</p>' + '</div>';
+    html += '<div class="justify-content-center align-items-center">' + '<p id="c-name">' + coffee.name + '</p>' + '</div>';
     html += '<div class="justify-content-center align-items-center">' + '<p>' + coffee.roast + '</p>' + '</div>';
     html += '</div>';
 
