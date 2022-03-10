@@ -2,8 +2,11 @@
 <html lang="en">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title></title>
+
+    <title>Blac Majik Coffee</title>
+
     <link rel="stylesheet" href="style.css">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -14,58 +17,51 @@
             crossorigin="anonymous"></script>
 </head>
 <body>
-<div class="navbar">
-    <a href="#home">Home</a>
-    <div class="subnav">
-        <button class="subnavbtn">About <i class="fa fa-caret-down"></i></button>
+<main class="container">
+
+    <h1> BLAC MAJIK</h1>
+
+    <div class="d-flex justify-content-center" style="width: 100%">
+        <nav class="row justify-content-center">
+            <a href="#" class="col-3">Home</a>
+            <a href="#" class="col-3">About</a>
+            <a href="#" class="col-3">Menu</a>
+            <a href="#" class="col-3">Order</a>
+            <div class="animation start-home"></div>
+        </nav>
     </div>
-    <div class="subnav">
-        <button class="subnavbtn">Menu <i class="fa fa-caret-down"></i></button>
-        <div class="subnav-content">
-            <a href="#menu">Our Menu</a>
+
+    <h1 style="padding-top: 10px">COFFEE</h1>
+
+    <form class="d-flex justify-content-center">
+        <label for="roast-selection"></label>
+        <select id="roast-selection">
+            <option>light</option>
+            <option>medium</option>
+            <option>dark</option>
+        </select>
+        <input id="submit" type="submit"/>
+    </form>
+
+    <form action="" class="d-flex justify-content-center">
+        <input type="text" name="search" id="search" placeholder="search">
+    </form>
+
+    <section class="the-box">
+        <div class="row">
+            <div class="col-12 row" id="coffees"></div>
         </div>
-    </div>
-    <div class="subnav">
-        <button class="subnavbtn">Order <i class="fa fa-caret-down"></i></button>
-        <div class="subnav-content">
-            <a href="#order">Order Now</a>
+    </section>
+
+    <footer>
+        <div style="height: 100%">
+            <p class="d-flex justify-content-center align-items-center" style="margin: 0">
+                Developed By<span>Daniel & Ashauna</span>
+            </p>
         </div>
-    </div>
-    <div class="subnav">
-        <button class="subnavbtn">Find A Store <i class="fa fa-caret-down"></i></button>
-        <div class="subnav-content">
-            <a href="#findastore">Dallas</a>
-            <a href="#findastore">San Antonio</a>
-            <a href="#findastore">Austin</a>
-        </div>
-    </div>
+    </footer>
 
-</div>
-
-<div style="padding:0 16px">
-</div>
-
-
-<h1>Coffee!</h1>
-
-<form>
-    <label for="roast-selection"></label>
-    <select id="roast-selection">
-        <option>light</option>
-        <option>medium</option>
-        <option>dark</option>
-    </select>
-    <input id="submit" type="submit"/>
-</form>
-
-<form action="#">
-    <label for="search">SEARCH</label>
-    <input type="text" name="search" id="search">
-<!--    <input id="search-button" type="submit"/>-->
-</form>
-
-
-<section id="coffees"></section>
+</main>
 
 
 
