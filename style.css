@@ -132,3 +132,74 @@ div > p {
     background: rgba(0, 0, 0, 0.5);
     padding-top: 10px;
 }
+
+@media screen and (min-width:768px) {
+    nav .start-home, a:nth-child(1):hover~.animation {
+        width: 90px;
+        left: 145px;
+        background-color: #2BD6B4;
+    }
+    nav .start-about, a:nth-child(2):hover~.animation {
+        width: 90px;
+        left: 250px;
+        background-color: #2BD6B4;
+    }
+    nav .start-blog, a:nth-child(3):hover~.animation {
+        width: 90px;
+        left: 353px;
+        background-color: #2BD6B4;
+    }
+    nav .start-portefolio, a:nth-child(4):hover~.animation {
+        width: 90px;
+        left: 456px;
+        background-color: #2BD6B4;
+    }
+}
+
+@media screen and (min-width:992px) {
+    nav .start-home, a:nth-child(1):hover~.animation {
+        width: 90px;
+        left: 215px;
+        background-color: #2BD6B4;
+    }
+    nav .start-about, a:nth-child(2):hover~.animation {
+        width: 90px;
+        left: 334px;
+        background-color: #2BD6B4;
+    }
+    nav .start-blog, a:nth-child(3):hover~.animation {
+        width: 90px;
+        left: 475px;
+        background-color: #2BD6B4;
+    }
+    nav .start-portefolio, a:nth-child(4):hover~.animation {
+        width: 90px;
+        left: 613px;
+        background-color: #2BD6B4;
+    }
+}
+
+
+
+@media screen and (min-width:1200px) {
+    nav .start-home, a:nth-child(1):hover~.animation {
+        width: 90px;
+        left: 263px;
+        background-color: #2BD6B4;
+    }
+    nav .start-about, a:nth-child(2):hover~.animation {
+        width: 90px;
+        left: 397px;
+        background-color: #2BD6B4;
+    }
+    nav .start-blog, a:nth-child(3):hover~.animation {
+        width: 90px;
+        left: 564px;
+        background-color: #2BD6B4;
+    }
+    nav .start-portefolio, a:nth-child(4):hover~.animation {
+        width: 90px;
+        left: 731px;
+        background-color: #2BD6B4;
+    }
+}
