@@ -84,6 +84,25 @@ body {
     width: 100%;
     height: 50em;
 }
+
+#search {
+    width: 50%;
+    margin: 0.5em;
+    border: 5px solid #2BD6B4;
+}
+
+#roast-selection {
+    margin: 0.5em;
+    border: 5px solid #2BD6B4;
+}
+
+#submit {
+    margin: 0.5em;
+    border: 2px solid #2BD6B4;
+    background: #000000;
+    color: #FFFFFF
+}
+
 h1 {
     text-align: center;
     margin: 40px 0 40px;
