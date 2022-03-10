@@ -207,3 +207,25 @@ div > p {
     }
 }
 
+@media screen and (min-width:1400px) {
+    nav .start-home, a:nth-child(1):hover~.animation {
+        width: 90px;
+        left: 312px;
+        background-color: #2BD6B4;
+    }
+    nav .start-about, a:nth-child(2):hover~.animation {
+        width: 90px;
+        left: 458px;
+        background-color: #2BD6B4;
+    }
+    nav .start-blog, a:nth-child(3):hover~.animation {
+        width: 90px;
+        left: 652px;
+        background-color: #2BD6B4;
+    }
+    nav .start-portefolio, a:nth-child(4):hover~.animation {
+        width: 90px;
+        left: 848px;
+        background-color: #2BD6B4;
+    }
+}
